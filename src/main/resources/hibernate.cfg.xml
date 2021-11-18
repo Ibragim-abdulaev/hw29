@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">
+            jdbc:postgresql://ec2-3-225-30-189.compute-1.amazonaws.com/d1gi6efvn3e1or</property>
+        <property name="hibernate.connection.username">qlcbirciwmyqjo</property>
+        <property name="hibernate.connection.password">
+            f47bd7054c41ea5512343e6d0a2d8a61813dbb00eb996f15639a72d5b6af2266</property>
+        <property name="hibernate.hbm2ddl.auto">create-drop</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>
+        <property name="show_sql">false</property>
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
+    </session-factory>
+</hibernate-configuration>
