@@ -69,7 +69,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>Task</mainClass>
+                            <mainClass>ua.abdulaiev.hw29.Task</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

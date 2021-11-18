@@ -1,3 +1,5 @@
+package ua.abdulaiev.hw29;
+
 import ua.abdulaiev.hw29.dao.AlbumDao;
 import ua.abdulaiev.hw29.dao.CustomerDao;
 import ua.abdulaiev.hw29.enums.AlbumNames;
